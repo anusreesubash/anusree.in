@@ -7,11 +7,15 @@ export const Img = styled.img`
   overflow: hidden;
 `;
 
-export const ProjectTitle = styled.div`
+export const ProjectTitle = styled.a`
   font-weight: 100;
-  font-size: 20px;
-  padding: 10px;
-  cursor: pointer
+  font-size: 28px;
+  padding: 5px;
+  color: gray;
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
 `;
 
 export const GridContainer = styled.section`

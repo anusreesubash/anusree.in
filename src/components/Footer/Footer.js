@@ -5,9 +5,9 @@ import { FooterWrapper, LinkItem } from './FooterStyles';
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkItem><SiGithub/></LinkItem>
-      <LinkItem><SiTwitter/></LinkItem>
-      <LinkItem><SiLinkedin/></LinkItem>
+      <LinkItem href="https://github.com/anusreesubash"><SiGithub/></LinkItem>
+      <LinkItem href="https://twitter.com/anusree_subash"><SiTwitter/></LinkItem>
+      <LinkItem href="https://www.linkedin.com/in/anusree-p-s-92439120a/"><SiLinkedin/></LinkItem>
     </FooterWrapper>
   );
 };

@@ -2,29 +2,19 @@ import styled from 'styled-components';
 
 
 export const Card = styled.div`
-  padding-top: 50px;
-  margin-top: 100px;
   margin-inline: 25px;
-  --bg-filter-opacity: 0.5;
-  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 12em;
-  width: 10em;
+  height: 8em;
   font-size: 1.5em;
   border-radius: 10px;
   padding: 1em;
   /*margin: 2em;*/
-  color: white;
+  color: black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-end;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 0 2em -1em black;
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 1px solid #ccc;
-  text-decoration: none;
   text-align: left;
 
   p {
@@ -32,8 +22,29 @@ export const Card = styled.div`
     margin-top: 0.5em;
     line-height: 2em;
   }
+`;
+
+export const Div1 = styled.div`
+  color: gray;
+  padding-right: 20px;
+  text-align: end;
+  font-size: smaller;
+  width: 50%;
+`;
+
+export const Div2 = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
 
   a {
     color: gray;
+    font-size: medium;
+    cursor: pointer;
+
+    &:hover {
+      color: black;
+    }
   }
 `;

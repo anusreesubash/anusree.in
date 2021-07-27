@@ -23,4 +23,5 @@ export const LinkItem = styled.a`
 	padding-inline: 10px;
   margin-inline: 20px;
   cursor: pointer;
+  color: gray;
 `;

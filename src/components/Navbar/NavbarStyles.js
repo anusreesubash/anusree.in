@@ -6,6 +6,7 @@ export const Menu = styled.div`
   display: flex;
   justify-content: center;
   padding-block: 15px;
+  height: 50px;
   color: gray;
   width: 100%;
   margin: auto;

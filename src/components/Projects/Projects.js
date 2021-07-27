@@ -10,7 +10,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map((project) => (
         <div style={{padding:'10px'}} key={project.id}>
-          <ProjectTitle>{project.title}</ProjectTitle>
+          <ProjectTitle href={project.link}>{project.title}</ProjectTitle>
           <div>{project.description}</div>
         </div>
       ))}
