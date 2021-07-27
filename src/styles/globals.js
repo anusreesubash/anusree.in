@@ -18,7 +18,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: ${props => props.theme.fonts.main};
     font-size: 1.6rem;
     cursor: default;
-
   }
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};

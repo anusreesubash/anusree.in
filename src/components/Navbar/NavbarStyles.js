@@ -6,11 +6,13 @@ export const Menu = styled.div`
   display: flex;
   justify-content: center;
   padding-block: 15px;
-  height: 50px;
   color: gray;
   width: 100%;
   margin: auto;
   background-color: #f2f2f2;
+  top: 0;
+  box-sizing: content-box;
+  align-items: center;
 `;
 
 export const MenuItem = styled.div`
