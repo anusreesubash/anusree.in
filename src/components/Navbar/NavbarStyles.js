@@ -5,9 +5,9 @@ import styled from 'styled-components';
 export const Menu = styled.div`
   display: flex;
   justify-content: center;
-  padding-block: 15px;
+  padding-block: 20px;
   color: gray;
-  width: 100%;
+  min-width: fit-content;
   margin: auto;
   background-color: #f2f2f2;
   top: 0;
