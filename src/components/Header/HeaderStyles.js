@@ -5,6 +5,7 @@ export const Container = styled.div`
 
   display: flex;
   flex-direction: column;
+  min-width: max-content;
 `;
 
 export const Name = styled.div`
