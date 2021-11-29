@@ -17,7 +17,7 @@ const Resume = () => (
       </Job>
       <Job>
         <Company>Strizly</Company>
-        <Position>Data Engineer</Position>
+        <Position>Software Engineer</Position>
         <Description>Data quality tests using apache spark</Description>
         <Duration>April 2020 - November 2020</Duration>
         <a style={{padding: '5px'}} href="https://www.strizly.com/">view website</a>
@@ -31,9 +31,9 @@ const Resume = () => (
 
     <SubSection>
       <SectionSubtitle main>Technical Skills</SectionSubtitle>
-      <p style={{padding: '2px'}}>React.js, Next.js</p>
+      <p style={{padding: '2px'}}>ReactJS, HTML, CSS, Javascrpt</p>
       <p style={{padding: '2px'}}>PostgreSQL, MySQL</p>
-      <p style={{padding: '2px'}}>CSS  HTML </p>
+      <p style={{padding: '2px'}}>NodeJS</p>
     </SubSection>
 
     <SubSection>

@@ -11,12 +11,12 @@ const Navbar = () =>  {
       <MenuItem className={router.pathname == "/" ? "active" : ""}>
         <a style={{color:"inherit"}} href="/">Home</a>
       </MenuItem>
-      <MenuItem className={router.pathname == "/blog" ? "active" : ""}>
+     {/* <MenuItem className={router.pathname == "/blog" ? "active" : ""}>
         <a style={{color:"inherit"}} href="/blog">Blog</a>
       </MenuItem>
       <MenuItem className={router.pathname == "/projects" ? "active" : ""}>
         <a style={{color:"inherit"}} href="/projects">Projects</a>
-      </MenuItem>
+      </MenuItem>*/}
       <MenuItem className={router.pathname == "/resume" ? "active" : ""}>
         <a style={{color:"inherit"}} href="/resume">Resume</a>
       </MenuItem>

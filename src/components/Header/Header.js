@@ -13,7 +13,7 @@ const Header = () =>  {
       </Icon>
       <Intro>
         <div style={{paddingBottom: '20px'}}> Welcome to my portfolio. </div>
-        I’m a developer with passion for mathematics and teaching.
+        <p>I’m a full stack software engineer with passion for mathematics.</p>
       </Intro>
     </Container>
   );
